@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.tarefa {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.prioridade-baixa { border-left: 5px solid green; }
+.prioridade-média { border-left: 5px solid orange; }
+.prioridade-alta { border-left: 5px solid red; }
+.botoes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+button.editar { background-color: #2196F3; }
+button.excluir { background-color: #f44336; }
